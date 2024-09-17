@@ -53,6 +53,7 @@ function App() {
 
   return (
     <div className="box">
+      <h1> Welcome Kent </h1>
       <h3>Data Updated At: {timeToDate(dataUpdatedAt)}</h3>
       <div>
         <button onClick={() => setDexId((prev) => prev - 1)}>Prev</button>
